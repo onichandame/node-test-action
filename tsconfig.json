@@ -1,0 +1,16 @@
+{
+  "compilerOptions":{
+    "noEmit": false,
+    "outDir": "dist",
+    "lib": ["es2015"],
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,5 @@
+name: 'Node Test'
+description: 'run test on a node project'
+runs:
+  using: 'node12'
+  main: 'dist/main.js'
