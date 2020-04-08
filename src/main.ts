@@ -2,7 +2,7 @@ import core from '@actions/core'
 import installDeps from './deps'
 import runTest from './test'
 
-const run = async ():Promise<void> => {
+async function run ():Promise<void> {
   try {
     await installDeps()
     await runTest()
