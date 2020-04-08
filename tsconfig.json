@@ -1,7 +1,7 @@
 {
   "compilerOptions":{
     "noEmit": false,
-    "outDir": "dist",
+    "outDir": "lib",
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": true
