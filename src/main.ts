@@ -11,3 +11,5 @@ async function run ():Promise<void> {
     core.setFailed(e.message ? e.message : JSON.stringify(e))
   }
 }
+
+run()
