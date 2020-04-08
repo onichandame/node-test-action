@@ -2,6 +2,11 @@
   "compilerOptions":{
     "noEmit": false,
     "outDir": "lib",
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "strict": true,
+    "noImplicitAny": false,
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": true

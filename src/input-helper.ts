@@ -1,1 +1,1 @@
-export const getEnv = (key:string): string => process.env[key]
+export const getEnv = (key:string): string | undefined => process.env[key]
