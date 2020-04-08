@@ -1,5 +1,8 @@
 name: 'Yarn Test Action'
 description: 'run test on a node project'
+branding:
+  icon: check-square
+  color: blue
 runs:
   using: 'node12'
   main: 'dist/index.js'
