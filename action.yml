@@ -1,4 +1,4 @@
-name: 'Node Test'
+name: 'Node Test Action'
 description: 'run test on a node project'
 runs:
   using: 'node12'
