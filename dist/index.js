@@ -1579,8 +1579,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const exec_1 = __webpack_require__(986);
 const option_helper_1 = __importDefault(__webpack_require__(904));
 exports.installDeps = () => __awaiter(void 0, void 0, void 0, function* () {
-    if ((yield exec_1.exec('yarn', ['install'], option_helper_1.default)) !== 0) {
-        throw new Error('installing dependencies failed');
+    if ((yield exec_1.exec("yarn", [], option_helper_1.default)) !== 0) {
+        throw new Error("installing dependencies failed");
     }
 });
 exports.default = exports.installDeps;
